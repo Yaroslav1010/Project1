@@ -1,0 +1,59 @@
+/*
+Theme Name: ACF
+ */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #BC8F8FFF;
+}
+
+nav{
+    background: #9a9a9a;
+    text-align: center;
+}
+
+nav a{
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    transition: background-color 0.5s, color 0.5s 0.5s;
+}
+
+nav a:hover{
+    background: #000;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    margin: 10px;
+    background: #000000bb;
+    padding: 20px;
+    width: 50%;
+}
+
+article a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+article a:hover{
+    color: #ff0000;
+}
+
+article img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.date{
+    color: #ffffff;
+}
+
+footer{
+    text-align: center;
+}
